@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background: url(https://i.ytimg.com/vi/bjqa3yw_OwQ/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  
+  /* body {
+    background: url(https://i.ytimg.com/vi/bjqa3yw_OwQ/maxresdefault.jpg);
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+   */
+  .player {
+    margin: 30px;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .life-bar {
+    position: absolute;
+    width: 90%;
+    margin: 5%;
+    height: 30px;
+  }
+  .life-bar .bar {
+    position: absolute;
+    width: 45%;
+    height: 28px;
+    border: solid 1px #fff;
+    background: rgba(0, 0, 255, 0.6);
+  }
+  .life-bar .bar .player-name {
+    position: absolute;
+    padding: 5px;
+    color: #fff;
+  }
+  .life-bar .bar .speed {
+    position: absolute;
+    width: 20%;
+    height: 10px;
+    bottom: -12px;
+    background: rgba(0, 255, 0, 0.6);
+    border: 1px solid #fff;
+  }
+  .life-bar .bar-p1:before {
+    position: absolute;
+    content: "";
+    background: rgba(255, 0, 0, 0.8);
+    width: 23%;
+    height: 28px;
+    right: 0;
+  }
+  .life-bar .bar-p2 {
+    left: 55%;
+  }
+  .life-bar .bar-p2 .player-name {
+    right: 0;
+  }
+  .life-bar .bar-p2 .speed {
+    right: 0;
+  }
+  .life-bar .bar-p2:before {
+    position: absolute;
+    content: "";
+    background: rgba(255, 0, 0, 0.8);
+    width: 80%;
+    height: 28px;
+  }
+  
+ 
+  
+
+.menu-vibora{
+    width: 100%;
+    height: 120px;
+    /* background-color: red; */
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+
+
+.pers{
+  width: 100px;
+  height: 100px;
+  /* background-color: blue; */
+    
+}
+.pers img{
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+  border-left: 7px solid rgb(54, 54, 54);
+  border-top: 7px solid rgb(54, 54, 54);
+  border-right: 7px solid rgb(124, 124, 124);
+  border-bottom: 7px solid rgb(124, 124, 124);
+
+}
+
+.personaj{
+  /* height: 350px; */
+  position: absolute;
+  width: 190px;
+  object-fit: cover;
+  margin-top: 200px;
+  margin-left: 150px;
+  color: red;
+}
+.boss{
+  width: 0px;
+  margin-left: 800px;
+  margin-top: 200px;
+}
+
+.protivnik{
+  /* background-color: #fff; */
+  width: 190px;
+  object-fit: cover;
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  /* margin-right: 500px; */
+}
+
+
+.div{
+  background-color: #000;
+  width: 100%;
+  height: 215px;
+  position: absolute;
+}
