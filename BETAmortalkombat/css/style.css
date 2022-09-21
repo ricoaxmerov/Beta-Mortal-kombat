@@ -1,10 +1,6 @@
 body {
     margin: 0;
-    background: url(https://i.ytimg.com/vi/bjqa3yw_OwQ/maxresdefault.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+
   }
   
 
@@ -76,6 +72,13 @@ body {
   
  
   
+.level{
+  background: url(https://i.ytimg.com/vi/bjqa3yw_OwQ/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
 
 .menu-vibora{
     width: 100%;
